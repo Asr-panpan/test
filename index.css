@@ -1,0 +1,28 @@
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: #ff0000;
+}
+.one .two {
+  width: 300px;
+  height: 300px;
+}
+.one .two .three {
+  width: 200px;
+  height: 200px;
+}
+.one .two .three .four {
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+.a .b .c .d p {
+  color: #ff0000;
+}
+/* 
+    css预处理 less语法
+    1：嵌套      使用最多
+    2：定义变量     还好 
+    3：加减乘除 简单运算   主要使用在vw进行计算 （我接触到的）
+    4：函数
+ */
